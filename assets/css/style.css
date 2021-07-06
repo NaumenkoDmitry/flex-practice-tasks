@@ -173,3 +173,32 @@ body {
 .footer-link {
   color: dodgerblue;
 }
+@media screen and (max-width:920px){
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+}
+
+@media screen and (max-width:700px){
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .small-section {
+    width: 100%;
+  
+  }
+}
+
+@media screen and (max-width:320px){
+  .footer{
+    flex-direction: column;
+  }
+}
