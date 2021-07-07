@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/icon/apple.png">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Flex site</title>
   </head>
@@ -36,7 +37,12 @@
         <div class="container flex-container">
           <section class="card">
             <div class="img-wrapper">
-              <img src="./assets/img/photo1.jpeg" alt="image" class="img" />
+              <picture>
+               
+                <source srcset="photo1.webp" type="image/webp+jpeg">
+                <img src="./assets/img/photo1.jpeg" alt="image1" class="img" />
+              </picture>
+            
             </div>
             <div class="card-content">
               <h3 class="card-title">Web</h3>
@@ -53,7 +59,10 @@
           </section>
           <section class="card">
             <div class="img-wrapper">
-              <img src="./assets/img/photo3.jpeg" alt="image" class="img" />
+              <picture>
+                <source srcset="photo3.webp" type="image/webp+jpeg">
+                <img src="./assets/img/photo3.jpeg" alt="image3" class="img" />
+              </picture>
             </div>
             <div class="card-content">
               <h3 class="card-title">Web</h3>
@@ -70,7 +79,10 @@
           </section>
           <section class="card">
             <div class="img-wrapper">
-              <img src="./assets/img/photo2.jpeg" alt="image" class="img" />
+              <picture>
+                <source srcset="./assets/img/photo2.webp" type="image/webp+jpeg">
+                <img src="./assets/img/photo2.jpeg" alt="image2" class="img" />
+              </picture>
             </div>
             <div class="card-content">
               <h3 class="card-title">Web</h3>
